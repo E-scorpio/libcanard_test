@@ -37,9 +37,9 @@ void loop() {
   receiveCanard();
   spinCanard();
   publishCanard();
-  TestGpsMsg();
+  TestFixMsg();
   TestAuxMsg();
-  //TestGpsMsg2();
+  //TestFixMsg2();
   
 
 

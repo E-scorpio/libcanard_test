@@ -86,8 +86,8 @@ void rawcmdHandleCanard(CanardRxTransfer* transfer);
 void getsetHandleCanard(CanardRxTransfer* transfer);
 void getNodeInfoHandleCanard(CanardRxTransfer* transfer);
 uint16_t makeNodeInfoMessage(uint8_t buffer[UAVCAN_GET_NODE_INFO_RESPONSE_MAX_SIZE]);
-void TestGpsMsg();
-void TestGpsMsg2();
+void TestFixMsg();
+void TestFixMsg2();
 void TestAuxMsg();
 
 
